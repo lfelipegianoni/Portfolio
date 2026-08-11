@@ -6,18 +6,20 @@ function App() {
   return (
     <>
       <header>
-        <ButtonHeader name="Home"/>
-        <ButtonHeader name="About"/>
-        <ButtonHeader name="Skills"/>
-        <ButtonHeader name="Project"/>
-        <ButtonHeader name="Contact"/>
+        <nav>
+          <ButtonHeader name="Home"/>
+          <ButtonHeader name="About"/>
+          <ButtonHeader name="Skills"/>
+          <ButtonHeader name="Project"/>
+          <ButtonHeader name="Contact"/>
+        </nav>
       </header>
       <main>
         <section className="home">
           <h3>I`m a Softer Developer</h3>
         </section>
         <section className="about">
-          <h3>About me</h3>
+          <h3>About</h3>
         </section>
         <section className="skills">
           <h3>My Skills</h3>
