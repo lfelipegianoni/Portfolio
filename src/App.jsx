@@ -1,19 +1,14 @@
-import { useState } from 'react'
 import './App.css'
 import { ButtonHeader } from './components/ButtonHeader'
+import { Header } from './components/Header';
+
+
+import closing from './assets/icons/closing.svg';
 
 function App() {
   return (
     <>
-      <header>
-        <nav>
-          <ButtonHeader name="Home"/>
-          <ButtonHeader name="About"/>
-          <ButtonHeader name="Skills"/>
-          <ButtonHeader name="Project"/>
-          <ButtonHeader name="Contact"/>
-        </nav>
-      </header>
+      <Header/>
       <main>
         <section className="home">
           <h3>I`m a Softer Developer</h3>
