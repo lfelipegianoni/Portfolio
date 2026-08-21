@@ -1,0 +1,9 @@
+
+.title-section{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: inline-block;
+}

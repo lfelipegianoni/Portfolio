@@ -4,28 +4,24 @@ import { Header } from './components/Header';
 
 
 import closing from './assets/icons/closing.svg';
+import { Home } from './components/Home';
+import { TitleSection } from './components/TitleSections';
 
 function App() {
   return (
     <>
       <Header/>
       <main>
-        <section className="home">
-          <h5>I`M SOFTWARE ENGINEER</h5>
-          <p>Hi, I`m Luis Felipe <br/> I build  things for the web</p>
-          <p>I'm a Full-Stack Developer specializing in building <br/> exceptional digital experiences with modern technologies</p>
-          <a>linkedin</a>
-          <button>Dowload CV</button>
-          <h5>TECHNOLOGIES | WORK WITH</h5>
-        </section>
+        <TitleSection name="I`M SOFTWARE ENGINEER"/>
+        <Home/>
         <section className="about">
-          <h5>About</h5>
+          <TitleSection name="ABOUT ME"/>
         </section>
         <section className="skills">
-          <h5>My Skills</h5>
+          <TitleSection name="MY SKILLS"/>
         </section>
         <section className="project">
-          <h5>My best projects</h5>
+          <TitleSection name="MY BEST PROJECTS"/>
         </section>
       </main>
       <footer className="contact">
