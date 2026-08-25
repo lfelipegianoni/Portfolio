@@ -1,18 +1,13 @@
 import './App.css'
-import { ButtonHeader } from './components/ButtonHeader'
-import { Header } from './components/Header';
-
-
-import closing from './assets/icons/closing.svg';
-import { Home } from './components/Home';
+import { Header } from './pages/Header';
 import { TitleSection } from './components/TitleSections';
+import { Home } from './pages/Home';
 
 function App() {
   return (
     <>
       <Header/>
       <main>
-        <TitleSection name="I`M SOFTWARE ENGINEER"/>
         <Home/>
         <section className="about">
           <TitleSection name="ABOUT ME"/>
