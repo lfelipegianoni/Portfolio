@@ -1,24 +1,78 @@
-.home{
-    margin: 20px 0;
-}
-.section-label{
-    display: inline-block;
-    margin: 10px 0;
+.sss {
+    color: var(--text-secondary);
 }
 
-.aligh-buttons{
+/* HERO SECTION */
+.hero {
+    padding: 50px 0 80px;
+    min-height: 85vh;
     display: flex;
-    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.align-technologies{
-    width: 60%;
+.hero h1 {
+    font-family: var(--font-mono);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    color: var(--text-primary);
+}
+
+.hero p.subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    max-width: 750px;
+    margin-bottom: 32px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+/* TECH STACK GRID */
+.tech-section {
+    margin-top: 20px;
+}
+
+.tech-title {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 16px;
+}
+
+.tech-icons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-}   
+    gap: 14px;
+}
 
-.align-technologies img{
-    width: 50px;
-    height: 50px;
+.tech-card {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    padding: 10px 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    transition: border-color 0.2s, transform 0.2s;
+}
+
+.tech-card i {
+    font-size: 1.2rem;
+}
+
+.tech-card:hover {
+    border-color: var(--accent-blue);
+    transform: translateY(-2px);
 }

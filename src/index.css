@@ -20,8 +20,15 @@
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
 main{
-  padding: 50px 10%;
+  padding: 0 10%;
 }
 
 

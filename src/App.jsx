@@ -1,14 +1,14 @@
 import './App.css'
 import { Header } from './pages/Header';
 import { TitleSection } from './components/TitleSections';
+import { Home } from './pages/Home';
 
 function App() {
   return (
     <>
       <Header/>
       <main>
-        <TitleSection name="I`M SOFTWARE ENGINEER"/>
-        /*Home*/
+        <Home/>
         <section className="about">
           <TitleSection name="ABOUT ME"/>
         </section>
