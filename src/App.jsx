@@ -1,10 +1,5 @@
 import './App.css'
-import { ButtonHeader } from './components/ButtonHeader'
-import { Header } from './components/Header';
-
-
-import closing from './assets/icons/closing.svg';
-import { Home } from './components/Home';
+import { Header } from './pages/Header';
 import { TitleSection } from './components/TitleSections';
 
 function App() {
@@ -13,7 +8,7 @@ function App() {
       <Header/>
       <main>
         <TitleSection name="I`M SOFTWARE ENGINEER"/>
-        <Home/>
+        /*Home*/
         <section className="about">
           <TitleSection name="ABOUT ME"/>
         </section>
