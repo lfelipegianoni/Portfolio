@@ -1,6 +1,10 @@
 import "./home-styles.css";
 
 import { Badge } from "../../components/Badge";
+import { TechCard } from "../../components/Home/TechCard";
+
+import download from "../../assets/icons/download.svg";
+import mail from "../../assets/icons/mail.svg";
 
 export function Home() {
   return (
@@ -13,20 +17,23 @@ export function Home() {
             </p>
 
             <div className="hero-actions">
-                <a href="https://linkedin.com" target="_blank" className="btn btn-primary">
+                <a href="https://www.linkedin.com/in/luis-santos-gianoni-5494ab257" target="#" className="btn btn-primary">
+                  <i class="devicon-linkedin-plain"></i>
                   LinkedIn
                 </a>
                 <a href="#contact" className="btn btn-secondary">
+                  <img src={download} alt=""/>
                   Download CV
                 </a>
                 <a href="#contact" className="btn btn-secondary">
+                  <img src={mail} alt=""/>
                   Contato
                 </a>
             </div>
             <div className="tech-title">Technologies | Work With</div>
             <div className="tech-section">
               <div className="tech-icons">
-                <TechCard 
+                <TechCard
                   nameIcon="devicon-javascript-plain colored" 
                   nameTech="React"
                 />
