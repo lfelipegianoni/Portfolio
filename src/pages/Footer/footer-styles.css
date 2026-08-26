@@ -4,56 +4,56 @@
 
 
 .contact-box {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border-color);
-            border-radius: 16px;
-            padding: 48px;
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-        }
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 48px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
 
-        .contact-box h2 {
-            font-size: 2rem;
-            margin-bottom: 16px;
-        }
+.contact-box h2 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
 
-        .contact-box p {
-            color: var(--text-secondary);
-            margin-bottom: 32px;
-        }
+.contact-box p {
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+}
 
-        .contact-info-list {
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-            flex-wrap: wrap;
-            margin-bottom: 32px;
-        }
+.contact-info-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
 
-        .info-item {
-            background: var(--bg-card);
-            border: 1px solid var(--border-color);
-            padding: 12px 20px;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-family: var(--font-mono);
-            font-size: 0.9rem;
-            cursor: pointer;
-            transition: border-color 0.2s;
-        }
+.info-item {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: border-color 0.2s;
+}
 
-        .info-item:hover {
-            border-color: var(--accent-blue);
-        }
+.info-item:hover {
+    border-color: var(--accent-blue);
+}
 
-        footer {
-            padding: 40px 0;
-            text-align: center;
-            font-family: var(--font-mono);
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            border-top: 1px solid var(--border-color);
-        }
+footer {
+    padding: 40px 0;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--border-color);
+}
