@@ -1,10 +1,12 @@
 import "./project-styles.css";
 
+import { Badge } from "../../components/Badge";
+
 export function Project (){
     return(
         <section id="projects">
+            <Badge name="My Projects"/>
             <div className="section-header">
-                <span className="section-tag">MY BEST PROJECTS</span>
                 <h2 className="section-title">Projetos em Destaque</h2>
             </div>
 

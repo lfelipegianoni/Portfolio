@@ -2,7 +2,6 @@
     color: var(--text-secondary);
 }
 
-/* HERO SECTION */
 .hero {
     padding: 50px 0 80px;
     min-height: 85vh;
@@ -76,3 +75,17 @@
     border-color: var(--accent-blue);
     transform: translateY(-2px);
 }
+
+.badge {
+            display: inline-block;
+            background-color: #1f2937;
+            color: var(--text-primary);
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 6px;
+            letter-spacing: 0.5px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 20px;
+        }
