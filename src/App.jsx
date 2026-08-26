@@ -1,8 +1,10 @@
 import './App.css'
 import { Header } from './pages/Header';
-import { TitleSection } from './components/TitleSections';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
+import { Skills } from './pages/Skills';
+import { Project } from './pages/Project';
+import { Footer } from './pages/Footer';
 
 function App() {
   return (
@@ -11,16 +13,10 @@ function App() {
       <main>
         <Home/>
         <About/>
-        <section className="skills">
-          <TitleSection name="MY SKILLS"/>
-        </section>
-        <section className="project">
-          <TitleSection name="MY BEST PROJECTS"/>
-        </section>
+        <Skills/>
+        <Project/>
       </main>
-      <footer className="contact">
-        {/*Linkedin / Git / email */}
-      </footer>
+      <Footer/>
     </>
   )
 }

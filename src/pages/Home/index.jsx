@@ -1,12 +1,11 @@
-import { TechCard } from "../../components/Home/TechCard";
-import { TitleSection } from "../../components/TitleSections";
 import "./home-styles.css";
+
+import { Badge } from "../../components/Badge";
 
 export function Home() {
   return (
-    <section id="home" className="hero">
-            <TitleSection name="I`M SOFTWARE ENGINEER"/>
-            
+    <section id="home" className="hero"> 
+            <Badge name="I'M SOFTWARE ENGINEER"/>
             <h1>Hi, I'm Luis Felipe<br/><span className="sss">I build things for the web</span></h1>
             
             <p className="subtitle">
