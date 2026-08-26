@@ -2,6 +2,7 @@ import './App.css'
 import { Header } from './pages/Header';
 import { TitleSection } from './components/TitleSections';
 import { Home } from './pages/Home';
+import { About } from './pages/About';
 
 function App() {
   return (
@@ -9,9 +10,7 @@ function App() {
       <Header/>
       <main>
         <Home/>
-        <section className="about">
-          <TitleSection name="ABOUT ME"/>
-        </section>
+        <About/>
         <section className="skills">
           <TitleSection name="MY SKILLS"/>
         </section>
