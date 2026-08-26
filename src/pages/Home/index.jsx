@@ -1,3 +1,4 @@
+import { TechCard } from "../../components/Home/TechCard";
 import { TitleSection } from "../../components/TitleSections";
 import "./home-styles.css";
 
@@ -23,21 +24,46 @@ export function Home() {
                   Contato
                 </a>
             </div>
+            <div className="tech-title">Technologies | Work With</div>
             <div className="tech-section">
-                <div className="tech-title">Technologies | Work With</div>
-                <div className="tech-icons">
-                    <div className="tech-card"> React</div>
-                    <div className="tech-card"> JavaScript</div>
-                    <div className="tech-card"> TypeScript</div>
-                    <div className="tech-card"> HTML5</div>
-                    <div className="tech-card"> CSS3</div>
-                    <div className="tech-card"> Figma</div>
-                    <div className="tech-card"> Git</div>
-                    <div className="tech-card"> Docker</div>
-                    <div className="tech-card"> Python</div>
-                    <div className="tech-card"> MySQL</div>
-                    <div className="tech-card"> Bootstrap</div>
-                </div>
+              <div className="tech-icons">
+                <TechCard 
+                  nameIcon="devicon-javascript-plain colored" 
+                  nameTech="React"
+                />
+                <TechCard 
+                  nameIcon="devicon-html5-plain colored" 
+                  nameTech="HTML5"
+                />
+                <TechCard 
+                  nameIcon="devicon-css3-plain colored" 
+                  nameTech="CSS3"
+                />
+                <TechCard 
+                  nameIcon="devicon-figma-plain colored" 
+                  nameTech="Figma"
+                />
+                <TechCard 
+                  nameIcon="devicon-git-plain colored" 
+                  nameTech="Git"
+                />
+                <TechCard 
+                  nameIcon="devicon-docker-plain colored" 
+                  nameTech="Docker"
+                />
+                <TechCard 
+                  nameIcon="devicon-python-plain colored" 
+                  nameTech="Python"
+                /> 
+                <TechCard 
+                  nameIcon="devicon-mysql-plain colored" 
+                  nameTech="MySQL"
+                />
+                <TechCard 
+                  nameIcon="devicon-bootstrap-plain colored" 
+                  nameTech="Bootstrap"
+                /> 
+              </div>
             </div>
         </section>
   )
