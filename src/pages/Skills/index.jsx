@@ -1,10 +1,12 @@
 import "./skills-styles.css";
 
+import { Badge } from "../../components/Badge";
+
 export function Skills (){
     return(
         <section id="skills">
+            <Badge name="My Skills"/>
             <div className="section-header">
-                <span className="section-tag">My Skills</span>
                 <h2 className="section-title">Habilidades & Tecnologias</h2>
             </div>
 
