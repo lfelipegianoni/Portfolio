@@ -1,4 +1,4 @@
-import "./footer-styles.css"
+import "./footer-styles.css";
 
 export function Footer (){
     return(

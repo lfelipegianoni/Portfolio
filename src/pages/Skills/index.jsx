@@ -8,7 +8,6 @@ export function Skills (){
         <section id="skills">
             <Badge name="My Skills"/>
             <SubTitle name="Skills and Technologies"/>
-
             <div className="skills-grid">
                 <div className="skill-category">
                     <h3><i className="fa-solid fa-desktop"></i> Front-End & Design</h3>

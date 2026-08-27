@@ -10,38 +10,31 @@ export function About (){
             <div className="about-grid">
                 <div className="about-text">
                     <p>
-                        Sou formado em <strong>Engenharia da Computação pela Facens (2020-2025)</strong> e possuo <strong>1 ano e 9 meses de experiência prática</strong> como Analista e Desenvolvedor de Software na ETIBrasil.
+                        I graduated with a degree in <strong>Software Engineering from FACENS (2020-2025)</strong>, with <strong>1 year and 9 months of experience</strong> as an intern, working as a Full Stack Developer at ETI Brasil, focusing on public education management.
                     </p>
                     <p>
-                        Minha atuação une a visão estruturada da engenharia ao foco em <strong>Design de Interfaces (UI/UX) e performance Front-End</strong>. Tenho experiência sólida em levantamento de requisitos com clientes, metodologias ágeis (Kanban), integração com APIs REST, bancos de dados MySQL e controle de versão com Git.
+                        During my internship experience, I worked with (UI/UX), Figma, React, Bootstrap, JavaScript, HTML5, CSS3, C#, Flutter, process mapping, customer support, and Trello using Agile methodologies.
                     </p>
                     <p>
-                        Um dos meus principais destaques profissionais foi a atuação no desenvolvimento de um <strong>Sistema ERP e Aplicativo de Controle de Estoque para a Secretaria de Educação</strong> (desenvolvido em Flutter com WebView e React UI/UX), aplicativo publicado com sucesso na <strong>Google Play e App Store</strong>.
+                        I am currently studying to improve my English proficiency through the Hotmart platform, taking the Cronograma dos Fluentes course, and I am looking for new opportunities as a developer.
                     </p>
-
-                    <ul className="pillars-list">
-                        <li><i className="fa-solid fa-check"></i> <strong>Foco em Experiência do Usuário (UI/UX):</strong> Criação de telas intuitivas com Figma e React.</li>
-                        <li><i className="fa-solid fa-check"></i> <strong>Visão de Processos & Qualidade:</strong> Mapeamento de processos em BPMN e documentação para redução de bugs.</li>
-                        <li><i className="fa-solid fa-check"></i> <strong>Engenharia & Solução Real:</strong> Formação técnica sólida voltada para evolução e sustentabilidade do software.</li>
-                    </ul>
                 </div>
-
                 <div className="about-highlights">
                     <div className="stat-card">
-                        <div className="number">1.9+</div>
-                        <div className="label">Anos de Experiência em Dev</div>
+                        <div className="number">Estagio</div>
+                        <div className="label">1 Ano e 9 meses como Full-Stack</div>
                     </div>
                     <div className="stat-card">
-                        <div className="number">FACENS</div>
+                        <div className="number">Graduação</div>
                         <div className="label">Engenharia da Computação</div>
                     </div>
                     <div className="stat-card">
-                        <div className="number">App Store</div>
-                        <div className="label">& Google Play Publicado</div>
+                        <div className="number">4+</div>
+                        <div className="label">Projetos </div>
                     </div>
                     <div className="stat-card">
-                        <div className="number">B1</div>
-                        <div className="label">Inglês & Espanhol</div>
+                        <div className="number">Ingles</div>
+                        <div className="label">Atualmente no B1</div>
                     </div>
                 </div>
             </div>

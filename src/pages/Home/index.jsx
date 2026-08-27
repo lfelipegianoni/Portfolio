@@ -37,7 +37,7 @@ export function Home() {
                   nameIcon="devicon-javascript-plain colored" 
                   nameTech="React"
                 />
-                <TechCard 
+                <TechCard
                   nameIcon="devicon-html5-plain colored" 
                   nameTech="HTML5"
                 />

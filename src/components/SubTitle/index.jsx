@@ -6,6 +6,5 @@ export function SubTitle ({name}){
             <h2 className="section-title">{name}</h2>
         </div>
     )
-
     /*Habilidades & Tecnologias */
 }
