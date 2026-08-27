@@ -1,15 +1,13 @@
 import "./project-styles.css";
 
 import { Badge } from "../../components/Badge";
+import { SubTitle } from "../../components/SubTitle";
 
 export function Project (){
     return(
         <section id="projects">
             <Badge name="My Projects"/>
-            <div className="section-header">
-                <h2 className="section-title">Projetos em Destaque</h2>
-            </div>
-
+            <SubTitle name="Featured Projects"/>
             <div className="projects-grid">
                 {/*Project 1*/}
                 <div className="project-card">
