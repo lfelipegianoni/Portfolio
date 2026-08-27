@@ -1,6 +1,7 @@
 import "./home-styles.css";
 
 import { Badge } from "../../components/Badge";
+import { TechCard } from "../../components/Home/TechCard";
 
 export function Home() {
   return (
@@ -30,7 +31,7 @@ export function Home() {
                   nameIcon="devicon-javascript-plain colored" 
                   nameTech="React"
                 />
-                <TechCard 
+                <TechCard
                   nameIcon="devicon-html5-plain colored" 
                   nameTech="HTML5"
                 />

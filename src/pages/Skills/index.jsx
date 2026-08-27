@@ -7,7 +7,7 @@ export function Skills (){
         <section id="skills">
             <Badge name="My Skills"/>
             <div className="section-header">
-                <h2 className="section-title">Habilidades & Tecnologias</h2>
+                <h2 className="section-title">Skills and Technologies</h2>
             </div>
 
             <div className="skills-grid">
