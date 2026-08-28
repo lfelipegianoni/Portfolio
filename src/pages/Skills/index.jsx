@@ -20,6 +20,7 @@ export function Skills (){
                         <span className="skill-tag">Figma</span>
                         <span className="skill-tag">Bootstrap</span>
                         <span className="skill-tag">SEO Técnico</span>
+                        
                     </div>
                 </div>
 
