@@ -7,7 +7,7 @@ export function Home() {
   return (
     <section id="home" className="hero"> 
             <Badge name="I'M SOFTWARE ENGINEER"/>
-            <h1>Hi, I'm Luis Felipe<br/><span className="sss">I build things for the web</span></h1>
+            <h1>Hi, I'm Luis Felipe<br/><span>I build things for the web</span></h1>
             
             <p className="subtitle">
                 Front-End Developer and Computer Engineer specializing in creating modern, responsive interfaces and efficient ERP systems using React, JavaScript, TypeScript, and UI/UX.

@@ -1,15 +1,13 @@
 import "./skills-styles.css";
 
 import { Badge } from "../../components/Badge";
+import { SubTitle } from "../../components/SubTitle";
 
 export function Skills (){
     return(
-        <section id="skills">
+        <section id="skills" className="skills">
             <Badge name="My Skills"/>
-            <div className="section-header">
-                <h2 className="section-title">Skills and Technologies</h2>
-            </div>
-
+            <SubTitle name="Skills and Technologies"/>
             <div className="skills-grid">
                 <div className="skill-category">
                     <h3><i className="fa-solid fa-desktop"></i> Front-End & Design</h3>

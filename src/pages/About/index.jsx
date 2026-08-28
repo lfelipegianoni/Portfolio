@@ -1,10 +1,12 @@
 import { Badge } from "../../components/Badge";
+import { SubTitle } from "../../components/SubTitle";
 import "./about-styles.css";
 
 export function About (){
     return(
-        <section id="about">
+        <section id="about" className="about">
             <Badge name="ABOUT ME"/>
+            <SubTitle name="Experience"/>
             <div className="about-grid">
                 <div className="about-text">
                     <p>
