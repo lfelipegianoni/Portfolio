@@ -4,7 +4,7 @@ export function SkillCategory({ icon, title, skills }) {
     return (
         <div className="skill-category">
             <h3>
-                <i className={icon}></i> {title}
+                <img src={icon} alt=""/> {title}
             </h3>
 
             <div className="tags-container">
