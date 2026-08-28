@@ -1,32 +1,73 @@
-import "./footer-styles.css"
+import "./footer-styles.css";
+import phone from "../../assets/icons/phone.svg";
+import mail from "../../assets/icons/mail.svg";
 
-export function Footer (){
-    return(
-        <section id="contact" className="section-footer">
-            <div className="contact-box">
-                <span className="section-tag">// 04. VAMOS CONVERSAR?</span>
-                <h2>Entre em Contato</h2>
-                <p>Estou em busca de novas oportunidades como Desenvolvedor de Software / Front-End. Sinta-se à vontade para mandar uma mensagem!</p>
+export function Footer() {
+  const handleCopy = (text, message) => {
+    navigator.clipboard.writeText(text);
+    alert(message);
+  };
 
-                <div className="contact-info-list">
-                    <div className="info-item" onclick="navigator.clipboard.writeText('lfelipe2305@hotmail.com.br'); alert('E-mail copiado!');">
-                        <i className="fa-regular fa-envelope"></i> lfelipe2305@hotmail.com.br
-                    </div>
-                    <div className="info-item" onclick="navigator.clipboard.writeText('(15) 98152-0688'); alert('Telefone copiado!');">
-                        <i className="fa-solid fa-phone"></i> (15) 98152-0688
-                    </div>
-                    <div className="info-item">
-                        <i className="fa-solid fa-location-dot"></i> Boituva - SP
-                    </div>
-                </div>
+  return (
+    <footer id="contact" className="footer">
+      <div className="footer-container">
+        <div className="footer-col brand-col">
+          <div className="logo">
+            <i className="fa-solid fa-code logo-icon"></i>
+            <a href="#home" className="logo">
+                <code>&lt;/&gt;</code> LuisFelipe.dev
+            </a>
+          </div>
+        </div>
+        <div className="footer-col">
+          <h4>Navegação</h4>
+          <ul className="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        <div className="footer-col">
+          <h4>Social Media</h4>
+          <div className="social-icons">
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <i class="devicon-linkedin-plain"></i>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <i class="devicon-github-original"></i>
+            </a>
+          </div>
+        </div>
 
-                <a href="mailto:lfelipe2305@hotmail.com.br" className="btn btn-primary">
-                    <i className="fa-paper-plane fa-regular"></i> Enviar Mensagem Direta
-                </a>
+        {/* Coluna 4: Informações de Contato */}
+        <div className="footer-col">
+          <h4>Contact Info</h4>
+          <div className="contact-list">
+            <div 
+              className="contact-item clickable" 
+              onClick={() => handleCopy('(15) 98152-0688', 'Telefone copiado!')}
+            >
+              <img src={phone} alt=""/>
+              <span>
+                (15) 98152-0688
+              </span>
             </div>
-            <div className="container">
-                <p>© 2026 Luis Felipe dos Santos Gianoni — Engenharia da Computação & Front-End Developer</p>
+            <div
+              className="contact-item clickable" 
+              onClick={() => handleCopy('lfelipe2305@hotmail.com.br', 'E-mail copiado!')}
+            >
+              <img src={mail} alt=""/>
+              <span>lfelipe2305@hotmail.com.br</span>
             </div>
-        </section>
-    )
+          </div>
+        </div>
+      </div>
+
+      {/* Linha de Copyright */}
+      <div className="footer-bottom">
+        <p>© 2026 Luis Felipe dos Santos Gianoni</p>
+      </div>
+    </footer>
+  );
 }
