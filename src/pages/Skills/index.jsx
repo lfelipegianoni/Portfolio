@@ -2,6 +2,11 @@ import "./skills-styles.css";
 
 import { Badge } from "../../components/Badge";
 import { SubTitle } from "../../components/SubTitle";
+import { SkillCategory } from "../../components/Skills/SkillCategory";
+
+import database from "../../assets/icons/database.svg";
+import laptop from "../../assets/icons/laptop.svg";
+import manufacturing from "../../assets/icons/manufacturing.svg";
 
 export function Skills (){
     return(
@@ -9,46 +14,46 @@ export function Skills (){
             <Badge name="My Skills"/>
             <SubTitle name="Skills and Technologies"/>
             <div className="skills-grid">
-                <div className="skill-category">
-                    <h3><i className="fa-solid fa-desktop"></i> Front-End & Design</h3>
-                    <div className="tags-container">
-                        <span className="skill-tag">React</span>
-                        <span className="skill-tag">JavaScript (ES6+)</span>
-                        <span className="skill-tag">TypeScript</span>
-                        <span className="skill-tag">HTML5 & CSS3</span>
-                        <span className="skill-tag">UI/UX Design</span>
-                        <span className="skill-tag">Figma</span>
-                        <span className="skill-tag">Bootstrap</span>
-                        <span className="skill-tag">SEO Técnico</span>
-                        
-                    </div>
-                </div>
-
-                <div className="skill-category">
-                    <h3><i className="fa-solid fa-server"></i> Backend & Banco de Dados</h3>
-                    <div className="tags-container">
-                        <span className="skill-tag">APIs REST</span>
-                        <span className="skill-tag">MySQL</span>
-                        <span className="skill-tag">SQL Server</span>
-                        <span className="skill-tag">Python</span>
-                        <span className="skill-tag">C# / C</span>
-                        <span className="skill-tag">ASP Clássico</span>
-                        <span className="skill-tag">Swagger</span>
-                        <span className="skill-tag">Postman</span>
-                    </div>
-                </div>
-
-                <div className="skill-category">
-                    <h3><i className="fa-solid fa-gears"></i> Ferramentas & Processos</h3>
-                    <div className="tags-container">
-                        <span className="skill-tag">Git & GitHub</span>
-                        <span className="skill-tag">Kanban / Trello</span>
-                        <span className="skill-tag">Docker</span>
-                        <span className="skill-tag">DevTools</span>
-                        <span className="skill-tag">BPMN</span>
-                        <span className="skill-tag">Documentação de Processos</span>
-                    </div>
-                </div>
+                <SkillCategory
+                    icon={laptop}
+                    title="Front-End & Design"
+                    skills={[
+                        "React",
+                        "JavaScript (ES6+)",
+                        "TypeScript",
+                        "HTML5 & CSS3",
+                        "UI/UX Design",
+                        "Figma",
+                        "Bootstrap",
+                        "SEO Técnico"
+                    ]}
+                />
+                <SkillCategory
+                    icon={database}
+                    title="Backend & Database"
+                    skills={[
+                        "APIs REST",
+                        "MySQL",
+                        "SQL Server",
+                        "Python",
+                        "C# / C",
+                        "ASP Clássico",
+                        "Swagger",
+                        "Postman"
+                    ]}
+                />
+                <SkillCategory
+                    icon={manufacturing}
+                    title="Tools & Processes"
+                    skills={[
+                        "Git & GitHub",
+                        "Kanban / Trello",
+                        "Docker",
+                        "DevTools",
+                        "BPMN",
+                        "Documentação de Processos",
+                    ]}
+                />
             </div>
         </section>
     )
