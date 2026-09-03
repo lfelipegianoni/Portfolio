@@ -26,12 +26,27 @@ export function Project (){
                     siteHref="https://lfelipegianoni.github.io/jornada-viagens/"
                     gitHref="https://github.com/lfelipegianoni/jornada-viagens"
                     title="Jornada Viagens"
-                    description="Landing page com diversos cards e textos, implementada com media queries para garantir responsividade em diferentes dispositivos.."
+                    description="Landing page com diversos cards e textos, implementada com media queries para garantir responsividade em diferentes dispositivos."
                     tags={[
                         "HTML",
                         "CSS",
                         "UI/UX",
                         "GitHub Pages"
+                    ]}
+                />
+                <ProjectCard
+                    siteHref="https://lfelipegianoni.github.io/jornada-viagens/"
+                    gitHref="https://github.com/lfelipegianoni/Portfolio"
+                    title="Portifólio"
+                    description="Este portfólio foi criado para apresentar minhas habilidades e experiências de forma clara e acessível, facilitando a avaliação do meu perfil por empresas e profissionais que buscam um desenvolvedor Full Stack."
+                    tags={[
+                        "React",
+                        "JavaScript",
+                        "HTML",
+                        "CSS",
+                        "UI/UX",
+                        "GitHub Pages",
+                        "Devicon",
                     ]}
                 />
             </div>
