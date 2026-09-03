@@ -1,15 +1,19 @@
 import "./project-card-styles.css";
 
 import folder from "../../../assets/icons/folder_open.svg";
+import github from "../../../assets/icons/github-brands-solid-full.svg"
+import site from "../../../assets/icons/globe-solid-full.svg"
 
-export function ProjectCard({title,description,tags}) {
+export function ProjectCard({siteHref,gitHref,title,description,tags}) {
+
     return(
         <div className="project-card">
             <div>
                 <div className="project-header">
                     <img className="fa-regular fa-folder-closed folder" src={folder} alt=""/>
                     <div className="project-links">
-                        <a href="#" title="Ver detalhes"><i class="devicon-github-original"></i></a>
+                        <a href={siteHref}  target="_blank" title="site do projeto"><img src={site} alt="" /></a>
+                        <a href={gitHref}  target="_blank" title="pasta do projeto"><img src={github} alt="" /></a>
                     </div>
                 </div>
                 <h3 className="project-title">{title}</h3>

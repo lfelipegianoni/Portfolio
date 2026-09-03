@@ -11,35 +11,27 @@ export function Project (){
             <SubTitle name="Featured Projects"/>
             <div className="projects-grid">
                 <ProjectCard
-                    title="Sistema ERP & App Merenda Escolar"
-                    description="Desenvolvimento de produto ERP voltado à Secretaria de Educação para gestão de entregas e controle de estoque de alimentos. Criação de telas e componentes responsivos em React integrados via Flutter WebView para o ecossistema mobile."
+                    siteHref="https://lfelipegianoni.github.io/pesquisa-culturama/"
+                    gitHref="https://github.com/lfelipegianoni/pesquisa-culturama"
+                    title="Pesquisa-Culturama"
+                    description="Formulário de pesquisa de opinião desenvolvido para o registro e organização de informações, contendo diferentes tipos de campos e elementos de interação, como campos de texto, seleção de datas por calendário, upload de imagens, select, radio buttons, checkboxes e paleta de cores."
                     tags={[
-                        "React",
-                        "Flutter",
+                        "HTML",
+                        "CSS",
                         "UI/UX",
-                        "Google Play",
-                        "App Store",
+                        "GitHub Pages"
                     ]}
                 />
                 <ProjectCard
-                    title="Modernização de Interfaces & SEO (ETIBrasil)"
-                    description="Levantamento de requisitos, prototipação no Figma e desenvolvimento de interfaces modernas integradas a sistemas legados (ASP Clássico) e MySQL, garantindo otimização de SEO e performance."
+                    siteHref="https://lfelipegianoni.github.io/jornada-viagens/"
+                    gitHref="https://github.com/lfelipegianoni/jornada-viagens"
+                    title="Jornada Viagens"
+                    description="Landing page com diversos cards e textos, implementada com media queries para garantir responsividade em diferentes dispositivos.."
                     tags={[
-                        "React",
-                        "Figma",
-                        "MySQL",
-                        "SEO",
-                        "REST APIs",
-                    ]}
-                />
-                <ProjectCard
-                    title="Mapeamento de Processos & Prevenção de Bugs"
-                    description="Projeto estratégico para mapeamento (BPMN) e documentação de processos do sistema ERP, reduzindo tempo de atendimento ao suporte e prevenindo falhas de software recorrentes."
-                    tags={[
-                        "BPMN",
-                        "Swagger",
-                        "Gestão de Processos",
-                        "Suporte Técnico"
+                        "HTML",
+                        "CSS",
+                        "UI/UX",
+                        "GitHub Pages"
                     ]}
                 />
             </div>

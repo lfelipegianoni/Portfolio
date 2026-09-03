@@ -36,7 +36,6 @@ export function Skills (){
                         "MySQL",
                         "SQL Server",
                         "Python",
-                        "C# / C",
                         "ASP Clássico",
                         "Swagger",
                         "Postman"
