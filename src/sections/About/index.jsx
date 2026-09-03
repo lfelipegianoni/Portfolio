@@ -6,17 +6,17 @@ export function About (){
     return(
         <section id="about" className="about">
             <Badge name="ABOUT ME"/>
-            <SubTitle name="Experience"/>
+            <SubTitle name="Experiência"/>
             <div className="about-grid">
                 <div className="about-text">
                     <p>
-                        I graduated with a degree in <strong>Software Engineering from FACENS (2020-2025)</strong>, with <strong>1 year and 9 months of experience</strong> as an intern, working as a Full Stack Developer at ETI Brasil, focusing on public education management.
+                        Me formei em <strong>Engenharia de Software pela FACENS (2020-2025)</strong>, com <strong>1 ano e 9 meses de experiência</strong> como estagiário, atuando como Desenvolvedor Full Stack na ETI Brasil, com foco em gestão da educação pública.
                     </p>
                     <p>
                         During my internship experience, I worked with (UI/UX), Figma, React, Bootstrap, JavaScript, HTML5, CSS3, C#, Flutter, process mapping, customer support, and Trello using Agile methodologies.
                     </p>
                     <p>
-                        I am currently studying to improve my English proficiency through the Hotmart platform, taking the Cronograma dos Fluentes course, and I am looking for new opportunities as a developer.
+                        Atualmente, estou estudando para aprimorar meu inglês por meio da plataforma Hotmart, fazendo o curso Cronograma dos Fluentes, e estou em busca de novas oportunidades como desenvolvedor.
                     </p>
                 </div>
                 <div className="about-highlights">

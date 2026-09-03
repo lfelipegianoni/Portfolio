@@ -12,7 +12,7 @@ export function Skills (){
     return(
         <section id="skills" className="skills">
             <Badge name="My Skills"/>
-            <SubTitle name="Skills and Technologies"/>
+            <SubTitle name="Habilidades e Tecnologias"/>
             <div className="skills-grid">
                 <SkillCategory
                     icon={laptop}

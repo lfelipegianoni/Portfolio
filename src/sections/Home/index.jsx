@@ -6,22 +6,24 @@ import { TechCard } from "../../components/Home/TechCard";
 import download from "../../assets/icons/download.svg";
 import mail from "../../assets/icons/mail.svg";
 
+import cv from "../../assets/documents/curriculo.pdf"
+
 export function Home() {
   return (
     <section id="home" className="hero"> 
             <Badge name="I'M SOFTWARE ENGINEER"/>
-            <h1>Hi, I'm Luis Felipe<br/><span className="sss">I build things for the web</span></h1>
+            <h1>Olá, meu nome é Luis Felipe<br/><span className="sss">Eu crio coisas para a web.</span></h1>
             
             <p className="subtitle">
-                Front-End Developer and Computer Engineer specializing in creating modern, responsive interfaces and efficient ERP systems using React, JavaScript, TypeScript, and UI/UX.
+                Desenvolvedor Front-End e Engenheiro de Computação especializado na criação de interfaces modernas e responsivas, além de sistemas ERP eficientes, utilizando React, JavaScript, TypeScript e UI/UX.
             </p>
 
             <div className="hero-actions">
-                <a href="https://www.linkedin.com/in/luis-santos-gianoni-5494ab257" target="#" className="btn btn-primary">
+                <a href="https://www.linkedin.com/in/luis-felipe-dos-santos-gianoni-5494ab257" target="#" className="btn btn-primary">
                   <i class="devicon-linkedin-plain"></i>
                   LinkedIn
                 </a>
-                <a href="#contact" className="btn btn-secondary">
+                <a href={cv} download className="btn btn-secondary">
                   <img src={download} alt=""/>
                   Download CV
                 </a>
@@ -30,7 +32,7 @@ export function Home() {
                   Contato
                 </a>
             </div>
-            <div className="tech-title">Technologies | Work With</div>
+            <div className="tech-title">Tecnologias | Trabalho com</div>
             <div className="tech-section">
               <div className="tech-icons">
                 <TechCard
