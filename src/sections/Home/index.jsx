@@ -15,7 +15,7 @@ export function Home() {
             <h1>Olá, meu nome é Luis Felipe<br/><span className="sss">Eu crio coisas para a web.</span></h1>
             
             <p className="subtitle">
-                Desenvolvedor Front-End e Engenheiro de Computação especializado na criação de interfaces modernas e responsivas, além de sistemas ERP eficientes, utilizando React, JavaScript, TypeScript e UI/UX.
+                Desenvolvedor Full-Stack e Engenheiro de Computação especializado na criação de interfaces modernas e responsivas, além de sistemas ERP eficientes, utilizando React, JavaScript, TypeScript e UI/UX.
             </p>
 
             <div className="hero-actions">
