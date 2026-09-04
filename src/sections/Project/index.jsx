@@ -35,7 +35,7 @@ export function Project (){
                     ]}
                 />
                 <ProjectCard
-                    siteHref="https://lfelipegianoni.github.io/jornada-viagens/"
+                    siteHref="https://lfelipegianoni.github.io/portfolio"
                     gitHref="https://github.com/lfelipegianoni/Portfolio"
                     title="Portifólio"
                     description="Este portfólio foi criado para apresentar minhas habilidades e experiências de forma clara e acessível, facilitando a avaliação do meu perfil por empresas e profissionais que buscam um desenvolvedor Full Stack."
