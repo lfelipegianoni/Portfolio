@@ -12,7 +12,7 @@ export function Home() {
   return (
     <section id="home" className="hero"> 
             <Badge name="I'M SOFTWARE ENGINEER"/>
-            <h1>Olá, meu nome é Luis Felipe<br/><span className="sss">Transformo ideias em aplicações web funcionais e modernas.</span></h1>
+            <h1>Olá, meu nome é Luis Felipe<br/><span className="sss">Eu transformo ideias em experiências digitais.</span></h1>
             
             <p className="subtitle">
                 Desenvolvedor Full-Stack e Engenheiro de Computação especializado na criação de interfaces modernas e responsivas, além de sistemas ERP eficientes, utilizando React, JavaScript, TypeScript e UI/UX.
